@@ -1,0 +1,8 @@
+# Quiet functional design
+The aesthetic aim is restrained, polished enterprise craft, not empty luxury landing pages. Use a coherent typographic hierarchy, predictable alignment, semantic contrast, tight but readable labels, consistent date/currency formatting, restrained surfaces, modest elevation, and clearly exposed actions. Reserve whitespace where it groups meaning rather than forcing visually airy but slow workflows.
+
+Do not prescribe Inter, a dark palette, number of type sizes, fixed cards, universal font weights, or obligatory gradients. Develop design directions from the existing brand and interface. Document tokens for surface, text, border, focus, destructive/status, categorical charts, quantitative scales, spacing, density, radius and motion. Do not use operational warning hues indiscriminately for unrelated chart categories. WCAG contrast is evaluated per combination and state.
+
+Density is a user/workflow preference, not a universal persona stereotype. Compact grids can retain keyboard focus, 24px pointer target requirements/exceptions, and clear error messages. Density changes can legitimately reflow layout; preserve selection, focus and scroll context, and remeasure virtual rows.
+
+Critique screen using: question answered in first scan; information competition; relationship of controls to affected data; precision of numeric alignment; filter visibility; legible hierarchy; recognizable focus/selection; recovery and stale states; mobile task viability; brand distinctiveness without décor overload. Rate each finding by severity and back it with observable evidence. No unverified conversion claims.
