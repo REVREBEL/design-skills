@@ -1,0 +1,33 @@
+@import "tailwindcss";
+/* Illustrative theme: adapt to existing shadcn/ui globals.css and verify contrast. */
+:root {
+  --app-background: oklch(0.99 0 0);
+  --app-foreground: oklch(0.20 0.01 250);
+  --app-border: oklch(0.88 0.01 250);
+  --app-ring: oklch(0.52 0.12 250);
+  --table-row-height: 2.75rem;
+  --table-cell-padding: 0.625rem;
+}
+.dark {
+  --app-background: oklch(0.16 0.01 250);
+  --app-foreground: oklch(0.95 0.01 250);
+  --app-border: oklch(0.36 0.01 250);
+  --app-ring: oklch(0.78 0.10 250);
+}
+@theme inline {
+  --color-background: var(--app-background);
+  --color-foreground: var(--app-foreground);
+  --color-border: var(--app-border);
+  --color-ring: var(--app-ring);
+}
+@theme {
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --color-status-success: oklch(0.55 0.12 150);
+  --color-status-warning: oklch(0.62 0.13 80);
+  --color-status-danger: oklch(0.55 0.18 28);
+  --color-chart-a: oklch(0.54 0.13 245);
+  --color-chart-b: oklch(0.61 0.12 115);
+}
+[data-density="compact"] { --table-row-height: 2rem; --table-cell-padding: .25rem; }
+[data-density="comfortable"] { --table-row-height: 3rem; --table-cell-padding: .75rem; }
+.font-numeric-tabular { font-variant-numeric: tabular-nums; }

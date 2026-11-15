@@ -1,0 +1,8 @@
+# shadcn/ui + Tailwind CSS v4 architecture
+Verify installed library docs/versions and real `components.json` first. shadcn/ui provides source-owned components; do not assume every component is Radix-backed or that TanStack/Recharts are installed. Prefer current documented patterns and avoid legacy Tailwind v3 configuration if project is on v4.
+
+Tailwind v4 uses CSS-first `@import "tailwindcss";` and top-level `@theme` for utility-generating tokens. Runtime state/themes and density may use regular CSS variables defined under selectors; bridge into utilities with `@theme inline` when needed. Verify generated class names and contrast after compiling. Example in `assets/example-theme.css` is illustrative, not a substitute for the project's existing CSS.
+
+Architecture layers: tokens/theme -> shadcn primitives -> headless table/chart/form logic -> domain compositions -> pages/workflows; data services and authorization operate beneath application components. Keep domain metrics out of cell formatters. Make formatter return N/A for null, handle units and locale, and consider false precision. Prefer accessible native `table` if appropriate; complex grids may need a documented WAI grid interaction model, virtualized navigation and screen-reader tests.
+
+Maintain state ownership intentionally: server cache (query library if installed), URL filters, form draft, selected row and live write status. Separate design-system variant API from vendor integration code. Do not force memoization of every column; stable references are important where the table observes input changes. Virtualization is not provided automatically by `useReactTable`.
