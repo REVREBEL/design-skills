@@ -1,9 +1,0 @@
-Success Criterion,Level,Component Scope,Requirement / Verification Test,Fail Action
-1.4.3 Contrast (Minimum),AA,Body Copy & UI Text,Contrast ratio between text and background must be >= 4.5:1. Tested across dark and light themes.,Reject low-contrast gray text; increase font weight or darken/lighten background.
-1.4.11 Non-text Contrast,AA,UI Borders & Buttons,Interactive boundaries and input borders must meet a minimum contrast ratio of 3.1 relative to adjacent surfaces.,Darken border stroke tokens or add visible focus border states.
-2.1.1 Keyboard Navigation,A,All Controls,All interactive elements (buttons, search pills, drawers, calendars) must be fully operable using keyboard alone.,Remove custom click handlers on div/span; use semantic buttons or explicit tabindex.
-2.4.7 Focus Visible,AA,Interactive Elements,Focus state must feature a distinct, high-contrast focus outline (:focus-visible) visible against dark backgrounds.,Apply high-contrast 2px offset ring on focus-visible states.
-4.1.2 Name Role Value,A,Custom Controls & Modal Drawers,Dynamic controls must expose valid ARIA roles (dialog, tab, aria-expanded, aria-controls, aria-disabled).,Use aria-disabled="true" instead of native button disabled tags to keep DOM focusable.
-2.5.8 Target Size (Minimum),AA,Mobile Touch Controls,Interactive touch targets must measure at least 24x24 px (recommended 44x44 pt in hospitality thumb-zones).,Expand button padding or apply touch-target utility containers.
-2.2.2 Pause Stop Hide,A,Hero Ambient Media,Auto-playing ambient videos must provide a visible pause/stop control or stop automatically within 5 seconds.,Include persistent media pause toggle or respect media reduced-data settings.
-2.3.3 Animation from Interactions,AAA/AA,Drawer Slide Over,Motion effects triggered by interaction must respect user media overrides (prefers-reduced-motion).,Wrap CSS transitions in @media (prefers-reduced-motion: no-preference).

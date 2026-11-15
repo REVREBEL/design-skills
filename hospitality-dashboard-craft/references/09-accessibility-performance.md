@@ -1,8 +1,0 @@
-# Accessibility, responsiveness and performance
-Target applicable WCAG 2.2 AA; criterion 2.1.1 is a Level A keyboard criterion within WCAG. Prefer semantic HTML and explicit labels. 2.5.8 target size 24×24 CSS pixels has exceptions (spacing, equivalent, inline, user-agent, essential). 44×44 touch targets are an enhanced design target, not universal AA law. For 2.5.7, offer single-pointer non-drag alternative when applicable; 2.1.1 additionally requires keyboard operation. Avoid positive `tabindex`. Native disabled controls are legitimate; use `aria-disabled` carefully only when focusable unavailable actions are beneficial and behavior is suppressed. Focus must not be fully obscured (2.4.11); `scroll-padding` can help but does not guarantee compliance. Test dialogs, sticky bars, virtualized tables, live updates, chart descriptions, status announcements, and reduced-motion support.
-
-Responsive design is task-oriented. Keep dense forecasting editors effective on large screens, and prioritize a selected task/summary on narrow screens without silently hiding consequential controls. Test pointer coarse, keyboard, screen reader, zoom/reflow and locales.
-
-Performance: measure actual LCP, INP, CLS with appropriate lab and field tools. Use virtualization only when it helps and test keyboard/screen reader implications. Cache appropriately, debounce expensive filters, preserve stale indicators, avoid layout thrash. Passing an automated tool is not proof of full accessibility or operational correctness.
-
-Primary references: https://www.w3.org/TR/WCAG22/ ; https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum ; https://tailwindcss.com/docs/theme ; https://ui.shadcn.com/docs

@@ -1,6 +1,0 @@
-# Visual analytics and grids
-Choose visualization by intended judgment: position/line for trends, bars for comparisons, waterfall for defined additive cost bridges, distributions for uncertainty, matrix/heatmap for dates and exceptions, table for accurate value lookup, editable grid for forecast work. A chart must show units, aggregation level, date basis, baseline, filters, freshness and source limitations when relevant. Do not use unlabeled dual axes or truncate axes in ways that mislead.
-
-For hotel pickup, an OTB pace plot without an as-of date and cohort is ambiguous. Compare consistent cohorts and distinguish actualized from on-the-books. For channel mix, disclose gross vs net and how shared marketing is allocated. For exception charts, pair color with symbol/text and expose tabular alternative.
-
-A robust analytical table specifies row ID, column definitions and units, sorting, filters, visible selection, pinned columns if helpful, pagination/virtualization trade-off, keyboard behavior, loading/empty/error/no-access, export authorization, and live update consequences. Virtual rows demand measurement and focus strategies. Preserve source timestamps and capability for accessible drillthrough.

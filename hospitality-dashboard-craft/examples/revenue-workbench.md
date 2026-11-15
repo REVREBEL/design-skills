@@ -1,2 +1,0 @@
-# Example: revenue strategy workspace
-Illustrative brief: revenue manager analyzes 90 stay dates for two properties with OTB, pickup, forecast, budget and last-year pace. Persistent property/date/stay-vs-snapshot selectors above sortable date table; chart is optional explanatory view. Label comparison type and lead-time methodology. Drilldown reveals segment and original snapshots; forecast changes open a draft inspector with audit trail and rights. Missing snapshots show unavailable rather than interpolated pickup. Test virtual table keyboard behavior if implemented.

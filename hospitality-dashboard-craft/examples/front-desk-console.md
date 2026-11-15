@@ -1,2 +1,0 @@
-# Example: front desk operations console
-Illustrative brief: agent processes today's arrivals, verifies ID/room eligibility and completes authorized check-in. Search queue with selected reservation detail, room state freshness, error/conflict handling and confirmation after PMS authoritative acknowledgment. Minimize PII to task, not universal mask. High density is permitted; all actions keyboard discoverable and pointer target compliant. Avoid offline check-in queue absent explicit supported reconciliation.

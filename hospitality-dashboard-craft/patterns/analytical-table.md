@@ -1,4 +1,0 @@
-# Pattern: analytical property table
-Use a native semantic table when sorting/selection interaction remains simple. Columns must carry units/currencies, right-align figures with tabular numerals, preserve row IDs, show source freshness and prevent unexpected context shifts on sorting/filtering. Provide explicit sorting controls, accessible headers, status text in addition to color, mobile horizontal or task-oriented navigation, and non-interactive fallback for missing data.
-
-For large grids consider TanStack Table state with TanStack Virtual separately; implement keyboard focus preservation, offscreen announcements and row-height remeasurement after density change. `useReactTable` alone does not virtualize. See `assets/RevenueGrid.tsx` for a starter with null-aware formatter. It is a sample, not an integration or a virtualized enterprise grid.
