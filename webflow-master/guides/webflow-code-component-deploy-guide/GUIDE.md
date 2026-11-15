@@ -69,7 +69,7 @@ Guide users through deploying their code component library to Webflow.
    - How to use components in Designer
    - How to update in future
    - Common post-deploy tasks
-   - If deployment fails, use [troubleshoot-deploy](../troubleshoot-deploy/SKILL.md) to diagnose and fix issues
+   - If deployment fails, use [troubleshoot-deploy](../webflow-code-component-troubleshoot-deploy/GUIDE.md) to diagnose and fix issues
 
 ## Deployment Workflow
 
@@ -409,7 +409,7 @@ After deployment, verify success with these checks:
 
 ### Terminology
 
-The CLI command is `webflow library share`. This skill uses "deploy" as the user-facing term for consistency with common developer vocabulary. See the [CLI reference](../../references/CODE_COMPONENTS_REFERENCE.md) (Section 12) for full command documentation.
+The CLI command is `webflow library share`. This skill uses "deploy" as the user-facing term for consistency with common developer vocabulary. See the [CLI reference](../webflow-code-components/GUIDE.md) (Section 12) for full command documentation.
 
 ### Authentication Methods
 

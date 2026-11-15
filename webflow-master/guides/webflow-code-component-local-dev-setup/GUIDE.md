@@ -164,8 +164,8 @@ project/
 
 ### Development Workflow
 
-1. **Create component**: Use [component-scaffold](../component-scaffold/SKILL.md) skill
+1. **Create component**: Use [component-scaffold](../webflow-code-component-component-scaffold/GUIDE.md) skill
 2. **Develop locally**: Run React project to iterate (e.g., `npm run dev`)
-3. **Validate**: Use [pre-deploy-check](../pre-deploy-check/SKILL.md) skill
-4. **Deploy**: Use [deploy-guide](../deploy-guide/SKILL.md) skill or run `npx webflow library share`
+3. **Validate**: Use [pre-deploy-check](../webflow-code-component-pre-deploy-check/GUIDE.md) skill
+4. **Deploy**: Use [deploy-guide](../webflow-code-component-deploy-guide/GUIDE.md) skill or run `npx webflow library share`
 5. **Test in Webflow**: Add component to page in Designer
