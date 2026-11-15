@@ -1,0 +1,14 @@
+interface:
+  display_name: Tailwind Master
+  short_description: Tailwind CSS v4 themes, utilities, and builds
+  default_prompt: Use $tailwind-master to implement or debug this Tailwind CSS v4
+    styling change.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

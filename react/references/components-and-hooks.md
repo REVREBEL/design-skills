@@ -1,0 +1,11 @@
+# Components and hooks
+
+- Compose with children and typed props. Use a discriminated union when variants require different fields or actions. Type DOM events from the underlying element and preserve native semantics, handler behavior, and ref contracts in wrappers. Extract a hook for reusable stateful behavior or a meaningful synchronization boundary.
+- Keep render idempotent and avoid mutating props, state, or external data during render. Follow the Rules of Hooks, including the version-specific rules for special APIs such as `use`. Explain the invariant if a dependency rule needs a localized exception.
+- Derive display values from current props or state. Use functional updates for state calculated from its previous value. Use refs for imperative handles and values that do not drive rendering. Keep components defined at stable identities and use stable domain keys in reorderable lists. Use a key change deliberately when replacing an entity should reset its subtree.
+- For effects, identify the external system, include reactive dependencies, and pair setup with cleanup. Check subscriptions, timers, and in-flight results under dependency changes and remounts. Move a save, submit, or navigation caused by a specific interaction into its event path. Avoid copying props into state unless the UI intentionally owns an independent draft.
+- Build controls from native elements when possible. Give controls accessible names, associate validation with fields, and preserve keyboard and focus behavior. For dialogs and composites, use the repository's established accessible primitives and verify focus on opening, closing, and recovery.
+- Use error boundaries to contain render failures at useful recovery points. Handle event and mutation failures in their own execution path. Keep the fallback actionable and log diagnostic details through the app's existing reporting path.
+- Test behavior through roles, labels, and user interactions. Verify focus, loading, recovery, stale response ordering, or key-based resets when these are part of the changed behavior. Run the project's typecheck, lint, and relevant tests with installed dependencies.
+
+Official references [Rules of React](https://react.dev/reference/rules) and [Effects and derived state](https://react.dev/learn/you-might-not-need-an-effect).
