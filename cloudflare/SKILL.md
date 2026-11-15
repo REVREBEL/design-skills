@@ -7,6 +7,19 @@ license: "not_declared_upstream"
 ---
 # Cloudflare Platform Skill
 
+# Master routing rules
+
+This is the **only installable Cloudflare skill** in this package. Its reference files, guides, and scripts are internal resources, not separate skill registrations.
+
+1. Determine the user's Cloudflare product and goal from the decision trees below.
+2. Read the relevant `references/<product>/` documentation, focusing on only the necessary files. If a referenced product directory is absent, use current official Cloudflare documentation instead; do not assume a local reference exists.
+3. For Cloudflare Workers architecture, edge runtime, KV/D1/R2 and troubleshooting, additionally consult `guides/workers-expert.md`.
+4. For Cloudflare account operations **specifically using Membrane**, consult `guides/membrane-integration.md` only when that integration is requested or available. Do not treat Membrane as required for ordinary Cloudflare operations.
+5. Use `scripts/` solely as supporting code/resources. Never execute unreviewed scripts automatically; inspect their dependencies and test in the target environment.
+6. Prefer official, current Cloudflare documentation and deployed configuration over static guidance when version-specific behavior or limits matter. Before writes/deletes, check environment, scope and permissions.
+
+
+
 Consolidated skill for building on the Cloudflare platform. Use decision trees below to find the right product, then load detailed references.
 
 Your knowledge of Cloudflare APIs, types, limits, and pricing may be outdated. **Prefer retrieval over pre-training** — the references in this skill are starting points, not source of truth.
